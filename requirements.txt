@@ -1,0 +1,31 @@
+anyscale
+build
+einops
+ipywidgets
+matplotlib
+notebook
+numpy
+pandas
+pylint
+pytest
+pytest-cov
+openai
+ray  # Core library for distributed computing
+ray[tune]  # Library for hyperparameter tuning and experiment management
+ray[serve]  # Scalable model serving for deploying ML models
+ray[data]  # Library for efficient distributed data processing
+ray[train]  # Library for distributed training of machine learning models
+ray[rllib]  # Reinforcement learning library with a unified API
+ray[workflows]  # Framework for building and executing distributed workflows
+ray[air]  # Unified framework for machine learning combining training and tuning
+rich
+seaborn
+scipy
+scikit-learn
+tensorboard
+# torch - see requirements-torch.txt
+tqdm
+twine
+vllm==0.5.3 # had to back out from the latest which was causing torch 2.4 to be installed which doesn't support cu121
+xarray
+xgboost

@@ -1,0 +1,9 @@
+# NOTE: only include pytorch requriments in this file as
+# a seperate file is needed for -f https://download.pytorch.org/whl/torch_stable.html
+# see https://pytorch.org/get-started/locally/
+# additionlly the requriemnts below require cuda 1.2.1
+# first run `sudo /mnt/efs/fs1/disks/cuda121_install.sh`
+# then run `/mnt/efs/fs1/disks/cuda121_configure.sh`
+torch==2.3.1+cu121 #2.2.1+cu121 # 1.8.0+cu111 # torch==1.7.1+cu110
+torchvision==0.18.1+cu121 #0.17.1+cu121 # 0.9.0+cu111 # torchvision==0.8.2+cu110
+torchaudio==2.3.1+cu121 #2.2.1+cu121 # 0.8.0 # torchaudio==0.7.2
